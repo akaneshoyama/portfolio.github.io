@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <!-- レスポンシブデザイン用のビューポート設定　-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+  </head>
+
+
+
+  <body>
+
+    <!-- header -->
+    <header>
+      <h1 class="heading sm-logo">
+          <a href="index.html">
+              <img src="img/portfolio_logo.png" alt="logo.png">
+          </a>
+      </h1>
+      <input id="drawer_input" class="drawer_hidden" type="checkbox">
+
+
+      <!--ハンバーガーアイコン -->
+      <label for="drawer_input" class="drawer_open">
+          <span></span>
+      </label>
+      <nav>
+          <h1 class="heading pc-logo">
+              <a href="index.html">
+                  <img src="img/portfolio_logo.png" alt="logo.png">
+              </a>
+          </h1>
+          <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="#works">Works</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#profile">Profile</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="mailto:akane.shoyama0@gmail.com" class="contact-btn">Contact</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+
+
+
+    <!-- main-visual用のdiv -->
+    <div class="main-visual">
+      <div class="main-visual-text">
+        <p class="main-visual-title">Akane Shoyama's portfolio</p>
+      </div>
+    </div>
+
+
+
+    <main>
+
+      <section class="works" id="works">
+
+        <h2>Works</h2>
+
+        <div class="border_line"></div>
+
+        <div class="main-contents">
+          <a href="https://www.figma.com/design/UCmmj0vz5b7ZRdXu3IKDn3/persona?node-id=0-1&t=98nX3CWwo4UjP4Ou-1" target="_blank"><div class="main-contents-box persona"></div></a>
+          <a href="https://www.figma.com/design/P4KCk1GJtd4QxwpZx6X91N/LP_PC%2FSP?node-id=0-1&t=rbF3MdTvWR5Jo5Qf-1" target="_blank"><div class="main-contents-box lp"></div></a>
+          <a href="https://www.figma.com/design/vb8KeKltzhKWUfDiALPcLI/banner_3?node-id=0-1&t=vZPX1UfcRoavhwOc-1" target="_blank"><div class="main-contents-box banner"></div></a>
+        </div>
+
+      </section>
+
+
+      <section class="profile" id="profile">
+        <h2>Profile</h2>
+        <div class="border_line"></div>
+          <p class="main-text">
+            初めまして、ご閲覧いただきありがとうございます。庄山茜と申します。<br>Webデザインの基礎を学びながら、ユーザー視点を大切にした使いやすいデザインを作り出せるデザイナーになるべく、日々勉強に取り組んでいます。どうぞよろしくお願いします。
+          </p>
+
+        <div class="profile-contents">
+          <div class="profile-img"><img src="img/IMG_pf4.png" alt="プロフィール画像"></div>
+
+          <div class="profile-child">
+            <div class="MyName">
+              <h3>庄山 茜 - Akane Shoyama</h3>
+              <p class="myname-text">
+                1998年4月、福岡県出身。日本大学を卒業後、「大好きなファッションに関われる仕事がしたい」という思いからアパレル企業に就職し、百貨店で接客・販売業務に従事。2024年6月、DMM WWBCAMPに入学し、Webデザインについて学ぶ。
+              </p>
+            </div>
+
+            <div class="MySkill">
+              <h3>SKILLS</h3>
+              <p class="myskill-text">
+                Adobe Photoshop / figma<br> /<br>HTML / CSS
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-btn"><a href="mailto:akane.shoyama0@gmail.com" class="footer-btn">Contact</a></div>
+      <div class="footer-border"></div>
+      <p class="footer-text">©2024 Akane Shoyama</p>
+    </footer>
+
+
+  </body>
+</html>
